@@ -1,0 +1,28 @@
+{
+  "name": "School",
+  "plural": "Schools",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "schoolName": {
+      "type": "string",
+      "required": true
+    },
+    "schoolDescription": {
+      "type": "string"
+    },
+    "schoolLogo": {
+      "type": "string"
+    },
+    "schoolLat": {
+      "type": "geopoint"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
