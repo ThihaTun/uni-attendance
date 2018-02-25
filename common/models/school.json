@@ -17,7 +17,7 @@
     "schoolLogo": {
       "type": "string"
     },
-    "schoolLat": {
+    "schoolLocation": {
       "type": "geopoint"
     }
   },
